@@ -42,11 +42,11 @@ const EditReminders = (props) => {
   // const addReminder = (event) => {
   //   props.dispatchAddReminder(reminderObj)
   // }
-  const cardsArr = [];
-  for (let i = 0; i < props.reminders.length; i += 1) {
-    cardsArr.push(
-    <EditCards deleteReminder={dispatchDeleteReminder} message={props.reminders[i].message}/>
-  )}
+  // const cardsArr = [];
+  // for (let i = 0; i < props.reminders.length; i += 1) {
+  //   cardsArr.push(
+  //   <EditCards deleteReminder={dispatchDeleteReminder} message={props.reminders[i].message}/>
+  // )}
   return (
     <div>
       <nav>
@@ -56,7 +56,7 @@ const EditReminders = (props) => {
         </button>
       </Link>
     </nav>
-    {cardsArr}
+    {/* {cardsArr} */}
 
     </div>
   )
